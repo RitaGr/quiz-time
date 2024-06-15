@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+   >
+     <TextView
+        android:text="@string/sign_up"  
+        android:gravity="center"
+        android:textSize="@dimen/subtitle"
+        android:layout_marginBottom="@dimen/twenty_dp"
+        android:layout_width="@dimen/trista_dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSignUp"     
+        />
+    <EditText
+        android:layout_marginTop="@dimen/fifty_dp"
+        android:layout_width="@dimen/trista_dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textInputEditTextName"
+        android:hint="@string/enter_username"
+        />
+    <EditText
+        android:layout_width="@dimen/trista_dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textInputEditTextPassword"
+        android:hint="@string/enter_password"
+        android:inputType="none|textPassword|textVisiblePassword"
+        />
+    <EditText
+        android:layout_width="@dimen/trista_dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textInputEditTextPasswordAgain"
+        android:hint="@string/enter_password_again"
+        android:inputType="none|textPassword" />
+    <Button
+        android:text="@string/sign_up"
+        android:layout_width="@dimen/trista_dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignUp" />
+</LinearLayout>

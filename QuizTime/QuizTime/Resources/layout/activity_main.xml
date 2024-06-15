@@ -1,0 +1,66 @@
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    
+    >
+
+    <TextView       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/subtitle"
+        android:layout_marginTop="@dimen/fifty_dp"
+        android:text="@string/login_or_create"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="@dimen/trista_dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/sto_dp"
+        android:hint="@string/username"
+        android:id="@+id/mainActivityUsername"
+        android:inputType="text"
+        android:gravity="center"      
+        />
+    <EditText
+        android:layout_width="@dimen/trista_dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/password"
+        android:id="@+id/mainActivityPassword"
+        android:inputType="textPassword"
+        android:gravity="center"        
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button      
+            android:layout_width="@dimen/sto_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginRight="@dimen/twenty_dp"
+            android:gravity="center"       
+            android:text="@string/sign_in"
+            android:id="@+id/buttonSignIn"
+        />
+        <Button
+            android:layout_width="@dimen/sto_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_dp" 
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:id="@+id/buttonSignUp"
+            />
+    </LinearLayout>>
+
+</LinearLayout>

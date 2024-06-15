@@ -1,0 +1,13 @@
+<resources>
+    
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="sto_dp">100dp</dimen>
+    <dimen name="dvesti_dp">200dp</dimen>
+    <dimen name="trista_dp">300dp</dimen>
+
+
+
+  <dimen name="subtitle">30sp</dimen>
+
+</resources>

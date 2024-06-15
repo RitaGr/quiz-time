@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >   
+    
+    <TextView
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:gravity="center"
+        android:textSize="@dimen/subtitle"
+        android:text="@string/select_a_topic_for_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView       
+        android:gravity="center"
+        android:textSize="10sp"
+        android:text="@string/click_on_me_for_music"
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ScrollView
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:rowCount="3"
+            android:columnCount="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+           
+            >
+
+            <!-- Row One -->
+
+            <android.support.v7.widget.CardView
+                android:layout_gravity="right"
+                android:layout_width="147dp"
+                android:layout_height="141dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/historyLayout"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/history"
+                        android:layout_width="@dimen/sto_dp"
+                        android:layout_height="@dimen/sto_dp"
+                    />
+
+                    <View
+                        android:background="@color/colorAsh"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:text="@string/history"
+                        style="@style/topic_textView"
+                    />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_gravity="left"
+                android:layout_width="147dp"
+                android:layout_height="141dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/geographyLayout"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/geography"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                    />
+
+                    <View
+                        android:background="@color/colorAsh"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                       style="@style/topic_textView"
+                        android:text="@string/geography"
+                       />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Row Two -->
+
+               <android.support.v7.widget.CardView
+                android:layout_gravity="right"
+                android:layout_width="147dp"
+                android:layout_height="141dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/spaceLayout"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/space"
+                        android:layout_width="@dimen/sto_dp"
+                        android:layout_height="100dp"
+                    />
+
+                    <View
+                         android:background="@color/colorAsh"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+
+                    <TextView                       
+                        android:text="@string/space"
+                        style="@style/topic_textView"
+                       />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</LinearLayout>

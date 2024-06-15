@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="QuizTime.CompletedFragment">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAAAAAAAACQEgIAAAAECAAAAAAABAAAAAAAQA=</HashCode>
+      <FileName>CompletedFragment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.CorrectFragments">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAARgAAAAAAAAAgAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CorrectFragments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.DataBase">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAMABAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.FlightModeReciever">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlightModeReciever.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.GameMenu">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAUAAAAABAgAAgBAABABACAAAAgAQAAEABAgASA=</HashCode>
+      <FileName>GameMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.IncorrectFragments">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAEAAAAAAACgAAAAAAGAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>IncorrectFragments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.MainActivity">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAhAAAYAAKAEAAAAAACAAAAAAAAAIgACAAIA=</HashCode>
+      <FileName>MainActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.MusicService">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="QuizTime.MusicService.MusicServiceBinder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MusicService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>MusicService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.Question">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAACAcgAAAAA=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.QuizActivity">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACogAQQAAEACDAAAgAQACAABCJAgDRFMAGAAAABwEQ=</HashCode>
+      <FileName>QuizActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.QuizDescriptionActivity">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAgAIAAAYAKACAQAAAAAAAAgAAAA=</HashCode>
+      <FileName>QuizDescriptionActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.QuizHelper">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACBAAAAAIIAAAAAAAAAEAAAAAgAAAAACAAAAAAA=</HashCode>
+      <FileName>QuizHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.SignUp">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAQAACAAAAEAAAGAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SignUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.User">
+    <Position X="12.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAQAAAAgACAAAAAACAQAAAAMAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
